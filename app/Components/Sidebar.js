@@ -6,7 +6,7 @@ import { HiOutlineHome } from "react-icons/hi";
 const navItems = [
     {
         name: 'Home',
-        link: '#intro',
+        link: '/',
         icon: (<HiOutlineHome className="size-6" />)
     },
     {
