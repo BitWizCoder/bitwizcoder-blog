@@ -1,7 +1,11 @@
 import About from "./Components/Homepage/About";
+import Blog from "./Components/Homepage/Blog";
+import Contact from "./Components/Homepage/Contact";
 import Introduction from "./Components/Homepage/Introduction";
+import Portfolio from "./Components/Homepage/Portfolio";
 import Services from "./Components/Homepage/Services";
 import Skills from "./Components/Homepage/Skills";
+import Testimonials from "./Components/Homepage/Testimonials";
 import Sidebar from "./Components/Sidebar";
 
 
@@ -19,6 +23,10 @@ export default function Home() {
         <About />
         <Skills />
         <Services />
+        <Testimonials />
+        <Portfolio />
+        <Blog />
+        <Contact />
       </div>
       {/* Footer */}
 
