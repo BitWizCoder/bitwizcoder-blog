@@ -1,10 +1,58 @@
+import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 import React from 'react'
 
 export default function About() {
     return (
-        <div id='about' className='h-screen'>
-            <h1>about sections</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, expedita magnam autem facere culpa maxime quas. Ratione tenetur beatae facilis voluptate deleniti, porro numquam cum maxime ab quaerat enim suscipit quidem dignissimos corporis corrupti quos natus sapiente sit. Rem numquam dolor beatae nisi eaque illum facilis aliquam, esse, laborum quod facere odio tempore. Sapiente sunt quisquam dolor, maiores alias aliquam impedit facilis ex repellat quae atque tempora necessitatibus corporis omnis fuga quis ipsa non modi, eos, sit ab consequuntur fugit? Perferendis accusamus deserunt, eligendi tenetur, recusandae nobis minima vel, quasi vero illo cum sint velit soluta temporibus accusantium error corporis cupiditate quibusdam quas dolorem expedita! Iste ut omnis nihil vero hic obcaecati dolor ipsam cupiditate sint laboriosam architecto ratione, sunt quos id molestias cumque dolorem rem provident impedit, dicta, iure quam? Illum earum sed, sit voluptates doloremque quisquam veniam similique atque qui sint at. Corporis reiciendis praesentium tenetur? Dolore, corrupti.</p>
-        </div>
+        <div id='about' className='flex items-center gap-28'>
+            <div className='grid grid-cols-2 gap-5 w-[480px] mt-36'>
+                <Image
+                    src="/photo1.png"
+                    width={232}
+                    height={255}
+                    alt="Picture of the author"
+
+                />
+
+                <Image
+                    src="/photo2.png"
+                    width={232}
+                    height={255}
+                    alt="Picture of the author"
+                    className='mt-3'
+
+                />
+
+                <Image
+                    src="/photo3.png"
+                    width={232}
+                    height={255}
+                    alt="Picture of the author"
+
+
+                />
+
+                <Image
+                    src="/photo4.png"
+                    width={232}
+                    height={255}
+                    alt="Picture of the author"
+                    className='mt-3'
+
+                />
+            </div>
+            <div className='max-w-[429px]'>
+                <h3 className='text-2xl'>ABOUT ME</h3>
+                <h2 className='text-3xl'>
+                    Hello, I am a Freelance Front-End Developer. Working for over 2 years.
+
+                </h2>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the  have suffered alteration in some form, by injected humour, or  randomised.
+                </p>
+
+                <Button className='rounded-none bg-[#21CD85] border-2 border-[#504E4E] py-5'>Download CV</Button>
+            </div>
+        </div >
     )
 }
