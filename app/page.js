@@ -1,5 +1,6 @@
 import About from "./Components/Homepage/About";
 import Introduction from "./Components/Homepage/Introduction";
+import Services from "./Components/Homepage/Services";
 import Skills from "./Components/Homepage/Skills";
 import Sidebar from "./Components/Sidebar";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Introduction />
         <About />
         <Skills />
+        <Services />
       </div>
       {/* Footer */}
 
