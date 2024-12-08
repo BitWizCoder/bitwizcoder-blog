@@ -42,8 +42,8 @@ export default function About() {
                 />
             </div>
             <div className='max-w-[429px]'>
-                <h3 className='text-2xl'>ABOUT ME</h3>
-                <h2 className='text-3xl'>
+                <h3 className='text-2xl mb-6'>ABOUT ME</h3>
+                <h2 className='text-3xl mb-7'>
                     Hello, I am a Freelance Front-End Developer. Working for over 2 years.
 
                 </h2>
@@ -51,7 +51,7 @@ export default function About() {
                     There are many variations of passages of Lorem Ipsum available, but the  have suffered alteration in some form, by injected humour, or  randomised.
                 </p>
 
-                <Button className='rounded-none bg-[#21CD85] border-2 border-[#504E4E] py-5'>Download CV</Button>
+                <Button className='rounded-none bg-[#21CD85] border-2 border-[#504E4E] py-5 mt-6'>Download CV</Button>
             </div>
         </div >
     )
