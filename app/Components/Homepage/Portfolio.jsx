@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Masonry from "react-responsive-masonry"
 
 
 
@@ -41,22 +39,6 @@ export default function Portfolio() {
                     }
                 </div>
             </div>
-
-
-
-            <Masonry columnsCount={3} gutter="10px">
-                {images.map((image, i) => (
-                    <Image
-                        key={i}
-                        src={image}
-                        width={322}
-                        height={394}
-                        alt=""
-                        className='mt-3'
-
-                    />
-                ))}
-            </Masonry>
         </>
     )
 }
